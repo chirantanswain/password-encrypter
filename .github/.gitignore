@@ -1,0 +1,6 @@
+# Local runtime secrets and data
+master.json
+stored_passwords.txt
+key.key
+__pycache__/
+*.pyc
