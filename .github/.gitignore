@@ -1,6 +1,25 @@
-# Local runtime secrets and data
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+
+# Virtual environment
+venv/
+.env/
+*.env
+
+# Sensitive local files
 master.json
 stored_passwords.txt
 key.key
-__pycache__/
-*.pyc
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Backup or temp files
+*.bak
+*.tmp
+
